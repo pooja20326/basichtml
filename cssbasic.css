@@ -1,0 +1,17 @@
+p
+{
+    color: blue;
+    font-size: 18px;
+    font-family: Verdana;
+    text-align: center;
+}
+button
+{
+    background-color: #1cc88a;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 20px;
+    cursor: pointer;
+   margin: 10px;
+}
