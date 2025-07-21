@@ -1,0 +1,21 @@
+    .parent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(231, 129, 231);
+      height: 100vh;
+    }
+
+    .child {
+      width: 200px;
+      height: 200px;
+      background-color: rgb(202, 69, 202);
+      text-align: center;
+      line-height: 200px;
+      color: white;
+      font-weight: bold;
+      justify-content: center;
+      align-items: center;
+      
+    }
+  

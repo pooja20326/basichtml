@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 30%;
+  margin: 1%;  
+  padding: 20px;
+  background-color: lightblue;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Responsive: stack vertically on small screens */
+@media(max-width: 768px) {
+  .box {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
